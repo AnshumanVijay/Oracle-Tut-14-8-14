@@ -1,0 +1,18 @@
+We need to compile our program before we can run it.
+
+The java compiler translates the source code into byte code for JVM(Java virtual machine) to understand using javac.
+
+Java bytecodes are interpreted and executed by the java interpreter.
+Interpreting and running a java program means invoking the JVM byte code interpreter which converts the java byte codes to platform dependent machine codes so our computer can understand and run it.
+
+When we compile a java source file, the compiler creates a file with the .class extension in the same folder as the source file with the same name as that of the file.
+---------------------------------------
+
+To run a java program, public class and public static void main should be there.
+public static void main(String[] args)-----
+public ---So that the member can be accessed outside the class in which it is declared.
+static --- allows main() to be called without having to instantiate a particular instance of the class.
+void --- main() does not return a value.
+main() --- It is the method called when an application begins.
+String[] args --- It declares a parameter called args, which is an array of instances of the class String.
+
